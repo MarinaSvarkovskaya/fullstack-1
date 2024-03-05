@@ -1,7 +1,12 @@
-import React from "react";
+import Page from "./component/page";
+import PostLict from "./container/post-list";
 
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <Page>
+      <PostLict />
+    </Page>
+  );
 }
 
 export default App;
